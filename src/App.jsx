@@ -1,9 +1,10 @@
 import { createRoot } from "react-dom/client";
+import Page from "./Page";
 
 const App = () => {
   return (
     <div>
-        <h1>Hello World!</h1>
+      <Page />
     </div>
   );
 };
